@@ -1,0 +1,13 @@
+.nav-bar {
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: var(--dark-gray);
+    box-shadow: 0 3px 3px black;
+    color: white;
+}     
+
+.nav-title {
+    font-weight: bold;
+    font-size: 28px;
+}

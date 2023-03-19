@@ -1,0 +1,23 @@
+/* Background */
+.background-color {
+    background-color: var(--bg-color);
+}
+
+/* Flex */
+
+.flex-wrapper {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}

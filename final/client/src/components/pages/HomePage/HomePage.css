@@ -1,0 +1,127 @@
+/* Overall */
+
+.big-container {
+    padding-top: 10px;
+    position: relative;
+}
+
+.little-container {
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    background-color: rgb(244, 242, 252);
+    border: solid rgb(255, 255, 255);
+    border-width: 0 4px 4px 0;
+    border-radius: 25px;
+    padding: 12px;
+    column-gap: 12px;
+    row-gap: 12px;
+}
+
+/* Images */
+
+.cat-img {
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.kitty-img {
+    width: 300px;
+    height: 300px;
+    background: none;
+    position: right;
+}
+
+/* RegisterForm */
+
+.register-form-container {
+    row-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.intro-title {
+    font-weight: bolder;
+    font-size: 60px;
+    max-width: 1400px;
+    text-align: center;
+    color: var(--dark-purple);
+}
+
+.intro-subtitle {
+    font-size: 20px;
+    text-align: center;
+    width: 1400px;
+    margin-bottom: 12px;
+    color: var(--dark-purple);
+}
+
+.number-input {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: var(--blue);
+}
+.number-input::placeholder {
+    color: var(--gray);
+}
+.number-input:focus {
+    outline: solid 1px;
+    outline-color: var(--blue);
+}
+
+#textme::before {
+    position: absolute;
+    content: "";
+    background-color: var(--red);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    right: 0px;
+    transition: all ease-out 0.2s;
+}
+#textme:hover::before {
+    height: 60px;
+    width: 60px;
+    right: -34px;
+}
+
+#textme::after {
+    position: absolute;
+    content: "";
+    background-image: url("../../../../public/msg.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    right: -30px;
+    top: 12px;
+    opacity: 0;
+    transition: all ease-out 0.2s;
+}
+#textme:hover::after {
+    opacity: 1;
+}
+
+.error-msg {
+    color: var(--red);
+}
+
+.success-container {
+    column-gap: 12px;
+}
+
+.success-mark {
+    width: 70px;
+    height: 70px;
+}
+
+.success-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--green);
+}

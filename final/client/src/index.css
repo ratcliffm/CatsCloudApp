@@ -1,0 +1,32 @@
+/* Colors */
+:root {
+  --bg-color: rgb(230, 233, 241);
+  --blue: rgb(66, 139, 188);
+  --red: rgb(249, 78, 94);
+  --gray: rgb(166, 163, 174);
+  --dark-purple: rgb(55, 50, 72);
+  --light-purple: rgb(221, 162, 255);
+  --dark-gray: rgb(36, 37, 42);
+  --green: rgb(10, 160, 110);
+  --text-green: rgb(8, 204, 70);
+}
+
+/* Global */
+/*  fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  margin: 0px;
+}
